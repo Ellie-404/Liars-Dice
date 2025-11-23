@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div>
+            <h1>LiarsDice</h1>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="dice">
+            <img class="diceImg" src="Img/dice1.png" alt="Dice1">
+            <img class="diceImg" src="Img/dice1.png" alt="Dice1">
+            <img class="diceImg" src="Img/dice1.png" alt="Dice1">
+        </div>
+        <div id="diceValue">...</div>
+        <button onclick="rollDice()">Roll Dice</button>
+        <input type="range" min="3" max="8" value="3" id="antall">
+        <div>
+            <label for="antall">Antall terninger:</label>
+            <span id="antallVerdi">3</span>
+         </div>
+    </div>
+</body>
+ <script src="script.js"></script> 
+</html>
+
